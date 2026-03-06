@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Coaches</title>
+    <link rel="stylesheet" href="../assets/css/coaches.css">
+</head>
+
+<body>
+
+    <div class="parent">
+        <!-- HEADER -->
+        <div class="div1 header">
+            <div class="logo">Coaching.org</div>
+            <nav class="nav">
+                <a href="#coaches">Coaches</a>
+                <a href="#kurse">Kurse</a>
+                <a href="#anmelden" class="btn-nav">Anmelden</a>
+            </nav>
+        </div>
+
+        <!-- HERO / WILLKOMMEN -->
+        <div class="div2 hero">
+            <div class="hero-content">
+                <h1>Willkommen bei deinem Online-Coaching</h1>
+                <p>Erreiche deine Ziele mit erfahrenen Coaches und strukturierten Kursen.</p>
+                <a href="#anmelden" class="btn-primary">Jetzt starten</a>
+            </div>
+        </div>
+
+        <!-- VISION / MISSION / CTA -->
+        <div class="div3 info">
+            <div class="info-block">
+                <h2>Vision</h2>
+                <p>Wir möchten Menschen dabei unterstützen, ihr volles Potenzial zu entfalten.</p>
+            </div>
+            <div class="info-block">
+                <h2>Mission</h2>
+                <p>Strukturierte Online-Kurse, persönliche Betreuung und klare Lernpfade.</p>
+            </div>
+            <div class="info-block">
+                <h2>Hier mehr erfahren</h2>
+                <p>Melde dich an und starte noch heute mit deinem ersten Kurs.</p>
+                <a href="#anmelden" class="btn-secondary">Anmelden</a>
+            </div>
+        </div>
+
+        <!-- SPEZIALISIERUNGEN / COACHES-TEASER (3 SPALTEN) -->
+        <div class="div4 specialization" id="coaches">
+            <h3>Dr. Jake (Autor und Schauspieler)</h3>
+            <div class="coach-image">
+                <img src="../assets/img/mindsetmotivation.png"
+                    alt="Bild von einem Mann der über Mindset & Motivation redet">
+            </div>
+            <p class="coach-spec">Spezialisierung: Mindset & Motivation</p>
+        </div>
+
+        <div class="div5 specialization">
+            <h3>Romeo (CEO von Brozmann GmbH)</h3>
+            <div class="coach-image">
+                <img src="../assets/img/anzugsmann.png" alt="Mann im Anzug">
+            </div>
+            <p class="coach-spec">Spezialisierung: Business & Karriere</p>
+        </div>
+
+        <div class="div6 specialization">
+            <h3>Kate (ausgezeichneter Pilates-Coach)</h3>
+            <div class="coach-image">
+                <img src="../assets/img/fitnessgirl.png" alt="Frau die über Gesundheit redet">
+            </div>
+            <p class="coach-spec">Spezialisierung: Gesundheit & Balance</p>
+        </div>
+
+        <!-- KURS-ÜBERSICHT (3 SPALTEN) -->
+        <div class="div7 course-card" id="kurse">
+            <h3>Kurs mit Dr. Jake</h3>
+            <p class="course-desc">
+                Ein praxisnaher Einsteigerkurs, der hilft,
+                Selbstvertrauen aufzubauen, Ziele klar zu definieren und motiviert
+                dranzubleiben.
+                <br>
+                Geeignet für: Berufstätige und Studierende, die an ihrem Mindset arbeiten
+                und sich persönlich weiterentwickeln wollen.
+            </p>
+            <p class="course-meta"><strong>Preis:</strong> 199 €</p>
+            <p class="course-meta"><strong>Dauer:</strong> 6 Wochen</p>
+        </div>
+
+        <div class="div8 course-card">
+            <h3>Kurs mit Romeo</h3>
+            <p class="course-desc">
+                Strategischer Kurs (1:1) für den nächsten Karriereschritt
+                von klarer Positionierung über Netzwerkaufbau bis zum souveränen Auftritt
+                im Job.
+                <br>
+                Geeignet für: Selbstständige und ambitionierte Berufstätige,
+                die ihr Business oder ihre Karriere gezielt voranbringen möchten.
+            </p>
+            <p class="course-meta"><strong>Preis:</strong> 3188 €</p>
+            <p class="course-meta"><strong>Dauer:</strong> 2 Wochen</p>
+        </div>
+
+        <div class="div9 course-card">
+            <h3>Kurs mit Kate</h3>
+            <p class="course-desc">Kompakter Kurs für mehr Energie und innere Ruhe
+                durch alltagstaugliche Routinen in Bewegung, Ernährung und
+                Stressmanagement.
+                <br>
+                Geeignet für: Sportinteressierte und gestresste Berufstätige,
+                die einen gesunden Ausgleich zu Arbeit oder Studium suchen.
+            </p>
+            <p class="course-meta"><strong>Preis:</strong> 149 €</p>
+            <p class="course-meta"><strong>Dauer:</strong> 4 Wochen</p>
+        </div>
+
+        <!-- ANMELDE-FORMULAR (ÜBER GESAMTE BREITE) -->
+        <div class="div10 signup" id="anmelden">
+            <h2>Anmelde-Formular</h2>
+            <form class="signup-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="vorname">Vorname</label>
+                        <input type="text" id="vorname" name="vorname" placeholder="Dein Vorname">
+                    </div>
+                    <div class="form-group">
+                        <label for="nachname">Nachname</label>
+                        <input type="text" id="nachname" name="nachname" placeholder="Dein Nachname">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">E-Mail</label>
+                        <input type="email" id="email" name="email" placeholder="deine@mail.de">
+                    </div>
+                    <div class="form-group">
+                        <label for="kursauswahl">Kursauswahl</label>
+                        <select id="kursauswahl" name="kursauswahl">
+                            <option value="">Bitte Kurs wählen</option>
+                            <option value="kurs1">Kurs 1</option>
+                            <option value="kurs2">Kurs 2</option>
+                            <option value="kurs3">Kurs 3</option>
+                        </select>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn-primary">Jetzt anmelden</button>
+            </form>
+        </div>
+        <div class="div11 footer">
+            <footer>
+                <!-- footer = Fußbereich (Copyright, Impressum, Kontakt, Links) -->
+
+                <p>&copy; Coaching</p>
+                <br>
+                <address>
+                    Schreib mir eine Mail!
+                    <p></p>
+                    <a href="mailto:info@beispiel.de">coaching@web.de</a>
+                </address>
+            </footer>
+        </div>
+    </div>
+
+</body>
+
+</html>
